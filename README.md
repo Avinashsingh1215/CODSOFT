@@ -11,11 +11,11 @@ This repository contains the machine learning projects completed as part of my *
 
 **Techniques Used:**
 
--Text vectorization (TF-IDF)
+- Text vectorization (TF-IDF)
 
--Multinomial Naive Bayes, Logistic Regression
+- Multinomial Naive Bayes, Logistic Regression
 
--Model evaluation using accuracy, F1 score, and confusion matrix
+- Model evaluation using accuracy, F1 score, and confusion matrix
 
 **Dataset:** Custom dataset with movie titles, plots, and genres
 
@@ -27,11 +27,11 @@ This repository contains the machine learning projects completed as part of my *
 
 **Techniques Used:**
 
--Data preprocessing and scaling
+- Data preprocessing and scaling
 
--Random Forest, Logistic Regression, and XGBoost
+- Random Forest, Logistic Regression, and XGBoost
 
--ROC-AUC score, precision, recall, and confusion matrix for evaluation
+- ROC-AUC score, precision, recall, and confusion matrix for evaluation
 
 **Dataset:** Kaggle’s Credit Card Fraud Detection dataset (anonymized features)
 
@@ -43,11 +43,11 @@ This repository contains the machine learning projects completed as part of my *
 
 **Techniques Used:**
 
--Data encoding and feature engineering
+- Data encoding and feature engineering
 
--Decision Trees, Logistic Regression, Random Forest
+- Decision Trees, Logistic Regression, Random Forest
 
--Evaluation via accuracy, precision, and classification report
+- Evaluation via accuracy, precision, and classification report
 
 **Dataset:** Telco customer churn dataset
 
@@ -55,13 +55,13 @@ This repository contains the machine learning projects completed as part of my *
 
 # 🛠️ Tools & Libraries
 
--Python (Jupyter Notebook)
+- Python (Jupyter Notebook)
 
--NumPy, Pandas, Matplotlib, Seaborn
+- NumPy, Pandas, Matplotlib, Seaborn
 
--Scikit-learn, XGBoost
+- Scikit-learn, XGBoost
 
--NLP tools: CountVectorizer, TfidfVectorizer
+- NLP tools: CountVectorizer, TfidfVectorizer
 
 ## 🧠 Models Comparison Summary
 
@@ -95,15 +95,15 @@ This repository contains the machine learning projects completed as part of my *
 ```
 # 📈 What I Learned
 
--Practical application of ML algorithms
+- Practical application of ML algorithms
 
--Data preprocessing and model evaluation
+- Data preprocessing and model evaluation
 
--Handling imbalanced datasets
+- Handling imbalanced datasets
 
--Natural language processing for classification
+- Natural language processing for classification
 
--Real-world problem-solving using machine learning
+- Real-world problem-solving using machine learning
 
 ## 🔗 Author 
 Avinash Singh \
