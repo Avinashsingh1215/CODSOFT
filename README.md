@@ -113,7 +113,7 @@ The models accurately predicted customer churn, helping identify key contributin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/MohdUmarSiddiq/CODSOFT.git
+   git clone https://github.com/Avinashsingh1215/CODSOFT.git
    cd CODSOFT
    ```
 2. Run any of the notebooks using Jupyter:
@@ -129,6 +129,6 @@ The models accurately predicted customer churn, helping identify key contributin
   ├── README.md
   ```
 ## 🔗 Author 
-Mohd Umar Siddiqui \
+Avinash Singh \
 Intern @ CODSOFT \
-[GitHub Profile](https://github.com/yourusername)
+[GitHub Profile](https://github.com/Avinashsingh1215)
