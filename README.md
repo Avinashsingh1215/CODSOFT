@@ -1,103 +1,67 @@
-# CODSOFT Internship Projects
+# 💼 Machine Learning Internship Projects – CODSOFT
+This repository contains the machine learning projects completed as part of my **Internship At CODSOFT**. Each project demonstrates practical implementations of ML techniques for solving real-world problems, including classification, anomaly detection, and predictive analytics.
 
-This repository contains projects completed as part of the **CODSOFT Internship Program**. The projects demonstrate applications of machine learning in real-world scenarios using classification models, data preprocessing, and evaluation techniques.
 
----
 
 ## 📁 Projects Overview
 
-### 🔹 Task 1: Movie Genre Classification
+📌 Tasks Completed
+### ✅ Task 1: Movie Genre Classification
+**Objective:** Predict the genre of a movie based on its plot summary using natural language processing (NLP).
 
-**Objective:**  
-Classify movies into genres based on textual features such as title and description.
+**Techniques Used:**
 
-**Dataset:**  
-Kaggle movie dataset containing fields like title, genre, and description.
+-Text vectorization (TF-IDF)
 
-**Technologies Used:**
-- Natural Language Processing (NLP)
-- TF-IDF Vectorization
-- Multinomial Naive Bayes Classifier
+-Multinomial Naive Bayes, Logistic Regression
 
-**Steps:**
-1. **Data Preprocessing:**
-   - Removed missing/null values.
-   - Converted genres to one-hot encoding.
-   - Used `TfidfVectorizer` for converting text to numerical features.
-2. **Model Training:**
-   - Used `MultinomialNB` (Naive Bayes) classifier.
-3. **Evaluation:**
-   - Accuracy Score
-   - Confusion Matrix
-   - Classification Report
+-Model evaluation using accuracy, F1 score, and confusion matrix
 
-**Results:**  
-Achieved satisfactory classification accuracy on test data. The model effectively learned to distinguish between genres based on textual content.
+**Dataset:** Custom dataset with movie titles, plots, and genres
 
----
+**Outcome:** Built a text classification model that can determine a movie's genre from its plot.
 
-### 🔹 Task 2: Credit Card Fraud Detection
+### ✅ Task 2: Credit Card Fraud Detection
 
-**Objective:**  
-Detect fraudulent credit card transactions from anonymized customer transaction data.
+**Objective:** Identify fraudulent transactions in a highly imbalanced dataset.
 
-**Dataset:**  
-Kaggle Credit Card Fraud Detection dataset (contains features from PCA).
+**Techniques Used:**
 
-**Technologies Used:**
-- Random Forest Classifier
-- Logistic Regression
-- K-Nearest Neighbors
-- StandardScaler for feature scaling
-- Class balancing (due to imbalance in fraudulent and non-fraudulent transactions)
+-Data preprocessing and scaling
 
-**Steps:**
-1. **Data Preprocessing:**
-   - Scaled features using `StandardScaler`.
-   - Checked for class imbalance.
-2. **Model Training:**
-   - Trained Logistic Regression, Random Forest, and KNN classifiers.
-3. **Evaluation:**
-   - Accuracy Score
-   - Confusion Matrix
-   - ROC AUC Score
+-Random Forest, Logistic Regression, and XGBoost
 
-**Results:**  
-Random Forest performed best, effectively identifying fraudulent cases despite class imbalance.
+-ROC-AUC score, precision, recall, and confusion matrix for evaluation
 
----
+**Dataset:** Kaggle’s Credit Card Fraud Detection dataset (anonymized features)
 
-### 🔹 Task 3: Customer Churn Prediction
+**Outcome:** Developed models that can effectively detect fraud with high recall, even on imbalanced data.
 
-**Objective:**  
-Predict if a customer is likely to churn based on their usage and service behavior.
+### ✅ Task 3: Customer Churn Prediction
 
-**Dataset:**  
-Telecom customer churn dataset from Kaggle or similar.
+**Objective:** Predict whether a customer will leave a telecom service based on historical behavior and demographics.
 
-**Technologies Used:**
-- Label Encoding for categorical features
-- Logistic Regression
-- Random Forest Classifier
-- Train-Test Split using Scikit-learn
-- Seaborn and Matplotlib for visualization
+**Techniques Used:**
 
-**Steps:**
-1. **Data Preprocessing:**
-   - Handled missing values.
-   - Encoded categorical variables.
-   - Visualized correlations and churn distributions.
-2. **Model Training:**
-   - Trained Logistic Regression and Random Forest models.
-3. **Evaluation:**
-   - Confusion Matrix
-   - Classification Report
-   - ROC AUC Score
+-Data encoding and feature engineering
 
-**Results:**  
-The models accurately predicted customer churn, helping identify key contributing factors such as contract type, tenure, and service features.
+-Decision Trees, Logistic Regression, Random Forest
 
----
+-Evaluation via accuracy, precision, and classification report
+
+**Dataset:** Telco customer churn dataset
+
+**Outcome:** Built a reliable model to predict churn, helping businesses retain valuable customers.
+
+# 🛠️ Tools & Libraries
+
+-Python (Jupyter Notebook)
+
+-NumPy, Pandas, Matplotlib, Seaborn
+
+-Scikit-learn, XGBoost
+
+-NLP tools: CountVectorizer, TfidfVectorizer
 
 ## 🧠 Models Comparison Summary
 
@@ -120,14 +84,27 @@ The models accurately predicted customer churn, helping identify key contributin
    ```bash
    jupyter notebook
    ```
-## 📚 Folder Structure
+## 📂 Repository Structure
   ```bash
-  CODSOFT/
-  ├── Task 1 - Movie Genre Classification.ipynb
-  ├── Task 2 - Credit Card Fraud detection.ipynb
-  ├── Task 3 - Customer Churn Prediction.ipynb
-  ├── README.md
-  ```
+  📁 CODSOFT-ML-Internship
+├── Task 1 - Movie Genre Classification.ipynb
+├── Task 2 - Credit Card Fraud Detection.ipynb
+├── Task 3 - Customer Churn Prediction.ipynb
+└── README.md
+
+```
+# 📈 What I Learned
+
+-Practical application of ML algorithms
+
+-Data preprocessing and model evaluation
+
+-Handling imbalanced datasets
+
+-Natural language processing for classification
+
+-Real-world problem-solving using machine learning
+
 ## 🔗 Author 
 Avinash Singh \
 Intern @ CODSOFT \
